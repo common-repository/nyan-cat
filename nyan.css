@@ -1,0 +1,221 @@
+/* 
+NYAN.CSS
+based on nyan.cat by @huy
+*/
+
+/*  background: #0f4d8f; */
+
+.nyan-cat-frame {
+	width: 100%;
+	height: 300px;
+	font-size: 1px;
+	position: absolute;
+	bottom: 1px;
+}
+
+.nyan-cat-frame .star {
+  font-size: 5em;
+  position: absolute; }
+
+  .nyan-cat-frame .star .wrapper {
+    position: relative;
+    height: 10em;
+    width: 10em; }
+
+  .nyan-cat-frame .star .dot {
+    background: white;
+    height: 1em;
+    width: 1em;
+    position: absolute;
+    display: none;
+    top: 40%;
+    left: 50%; }
+    
+  .nyan-cat-frame .star.frame-1 .wrapper {
+    right: 5em; }
+
+  .nyan-cat-frame .star.frame-2 .wrapper {
+    right: 10em; }
+
+  .nyan-cat-frame .star.frame-3 .wrapper {
+    right: 15em; }
+
+  .nyan-cat-frame .star.frame-4 .wrapper {
+    right: 20em; }
+
+  .nyan-cat-frame .star.frame-5 .wrapper {
+    right: 25em; }
+
+  .nyan-cat-frame .star.frame-1 .dot-1, .star.frame-2 .dot-1, .star.frame-4 .dot-1 {
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-2 .dot-2, .star.frame-3 .dot-2 {
+    margin-top: -1.5em;
+    margin-left: -1.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-2 .dot-3, .star.frame-3 .dot-3 {
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-2 .dot-4, .star.frame-3 .dot-4 {
+    margin-top: 0.5em;
+    margin-left: -1.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-2 .dot-5, .star.frame-3 .dot-5 {
+    margin-top: -1.5em;
+    margin-left: 0.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-3 .dot-6, .star.frame-4 .dot-6 {
+    margin-top: -2.5em;
+    margin-left: -2.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-3 .dot-7, .star.frame-4 .dot-7 {
+    margin-top: 1.5em;
+    margin-left: -2.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-3 .dot-8, .star.frame-4 .dot-8 {
+    margin-top: -2.5em;
+    margin-left: 1.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-3 .dot-9, .star.frame-4 .dot-9 {
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-4 .dot-2 {
+    margin-top: -3.5em;
+    margin-left: -3.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-4 .dot-3 {
+    margin-top: 2.5em;
+    margin-left: -3.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-4 .dot-4 {
+    margin-top: -3.5em;
+    margin-left: 2.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-4 .dot-5 {
+    margin-top: 2.5em;
+    margin-left: 2.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-5 .dot-6 {
+    margin-top: -3.5em;
+    margin-left: -3.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-5 .dot-7 {
+    margin-top: 2.5em;
+    margin-left: -3.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-5 .dot-8 {
+    margin-top: 2.5em;
+    margin-left: 2.5em;
+    display: block; }
+
+  .nyan-cat-frame .star.frame-5 .dot-9 {
+    margin-top: -3.5em;
+    margin-left: 2.5em;
+    display: block; }
+
+.nyan-cat-frame .rainbow {
+  font-size: 16em;
+  float: left;
+  position: relative; }
+
+  .nyan-cat-frame .rainbow .wave {
+    height: 1em;
+    width: 3.5em; }
+
+  .nyan-cat-frame .rainbow .wave-1 {
+    background: red; }
+
+  .nyan-cat-frame .rainbow .wave-2 {
+    background: #ffa500; }
+
+  .nyan-cat-frame .rainbow .wave-3 {
+    background: yellow; }
+
+  .nyan-cat-frame .rainbow .wave-4 {
+    background: green; }
+
+  .nyan-cat-frame .rainbow .wave-5 {
+    background: blue; }
+
+  .nyan-cat-frame .rainbow .wave-6 {
+    background: #4b0082; }
+
+  .nyan-cat-frame .rainbow .wave-7 {
+    background: #ee82ee; }
+
+.nyan-cat-frame .rainbows {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  margin-top: -92em;
+  overflow: hidden;
+  height: 145em;
+  width: 50%; }
+
+  .nyan-cat-frame .rainbows .wrapper {
+    width: 10000px; }
+
+  .nyan-cat-frame .rainbows .rainbow.frame-1 {
+    top: 0.5em; }
+
+  .nyan-cat-frame .rainbows .rainbow.frame-2 {
+    top: 1em; }
+
+  .nyan-cat-frame .rainbows .rainbow.frame-3 {
+    top: 1.5em; }
+
+  .nyan-cat-frame .rainbows .rainbow.frame-4 {
+    top: 2em; }
+
+  .nyan-cat-frame .rainbows .rainbow.frame-5 {
+    top: 1.5em; }
+
+  .nyan-cat-frame .rainbows .rainbow.frame-6 {
+    top: 1em; }
+
+  .nyan-cat-frame .rainbows.shift .rainbow.frame-1 {
+    top: 1.5em; }
+
+  .nyan-cat-frame .rainbows.shift .rainbow.frame-2 {
+    top: 1em; }
+
+  .nyan-cat-frame .rainbows.shift .rainbow.frame-3 {
+    top: 0.5em; }
+
+  .nyan-cat-frame .rainbows.shift .rainbow.frame-4 {
+    top: 0em; }
+
+  .nyan-cat-frame .rainbows.shift .rainbow.frame-5 {
+    top: 0.5em; }
+
+  .nyan-cat-frame .rainbows.shift .rainbow.frame-6 {
+    top: 1em; }
+
+.nyan-cat-frame .nyan-cat {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -180px;
+  background: url("nyancat.gif") !important;
+  height: 280px;
+  width: 420px;
+}
